@@ -12,7 +12,8 @@ function App() {
       <BrowserRouter basename="/reactrouter">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={<Product />}> 
+          <Route path="/product" element={<Outlet />}> 
+            <Route path="" element={<Product />} />
             <Route path="123" element={<Detail />} />
           </Route>
           <Route path="/chat" element={<Chat />} />
