@@ -11,13 +11,12 @@ function App() {
     <>
       <BrowserRouter basename="/reactrouter">
         <Routes>
-          <Route path="/" element={<Home />}>Home</Route>
+          <Route path="/" element={<Home />} />
           <Route path="/product" element={<Product />}> 
-            <Route path="" element={<Outlet />} />
             <Route path="123" element={<Detail />} />
           </Route>
-          <Route path="/chat" element={<Chat />}>Chat</Route>
-          <Route path="/profile" element={<Profile />}>Profile</Route>
+          <Route path="/chat" element={<Chat />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </>
