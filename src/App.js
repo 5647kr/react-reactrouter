@@ -8,7 +8,7 @@ import Profile from "./pages/Profile/Profile"
 function App() {
   return (
     <>
-      <BrowserRouter basename="/reactrouer">
+      <BrowserRouter basename="/reactrouter">
         <Routes>
           <Route path="/" element={<Home />}>Home</Route>
           <Route path="/product" element={<Product />}>Home</Route>
