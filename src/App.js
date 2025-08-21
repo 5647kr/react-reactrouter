@@ -9,7 +9,7 @@ import Detail from "./pages/Product/detail/Detail";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/reactrouter">
+      <BrowserRouter basename="/react-reactrouter">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Outlet />}> 

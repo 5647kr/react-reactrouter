@@ -1,7 +1,7 @@
 {
   "name": "reactrouter",
   "version": "0.1.0",
-  "homepage": "https://5647kr.github.io/reactrouter/",
+  "homepage": "https://5647kr.github.io/react-reactrouter/",
   "private": true,
   "dependencies": {
     "cra-template-basic-react": "1.0.1",
